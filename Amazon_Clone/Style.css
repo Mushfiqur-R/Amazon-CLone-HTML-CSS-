@@ -137,7 +137,13 @@ span {
   /* justify-content: space-evenly; */
   height: 35px;
   width: 100%;
-  background-color: gray;
+  background-color: antiquewhite;
+}
+.borderforsubnevi {
+  border: 2px solid transparent;
+}
+.borderforsubnevi:hover {
+  border: 2px solid brown;
 }
 .allmenubox {
   display: flex;
@@ -164,9 +170,61 @@ span {
   margin-left: 2px;
 }
 .mainbody {
-  height: 600px;
+  height: 350px;
   width: auto;
   background-color: #febd68;
-  background-image: url(Photoes/gamepic.jpg);
+  background-image: url(Photoes/ifif3.png);
+  background-size: contain;
+  /* gap: 15px; */
+
+  /* background-position: center; */
+}
+.shop_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: antiquewhite;
+  margin-bottom: 10px;
+}
+.box {
+  border: 2px black solid;
+  height: 350px;
+  width: 23%;
+  background-color: white;
+  padding: 10px 0px 20px;
+  margin-top: 20px;
+  border: none;
+}
+.picinbox {
+  height: 250px;
+  background-image: url(Photoes/Gamming_Accessories.png);
   background-size: cover;
+  background-color: #febd68;
+  margin: 15px 0px 40px;
+}
+.boxcontent {
+  margin: 10px;
+}
+.seemoretxt:hover {
+  color: brown;
+  font-weight: 500;
+}
+.footpanel1 {
+  background-color: #1f1137;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.footpanel1:hover {
+  background-color: #341d5c;
+}
+.footpanel2 {
+  height: 200px;
+  width: auto;
+  background-color: #041212;
+  color: white;
 }
